@@ -699,6 +699,7 @@ hr.hairline {
    Integrity deep-dive
    ============================================================ */
 .integrity-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 64px); align-items: center; }
+@media (max-width: 860px) { .integrity-wrap { grid-template-columns: 1fr; } }
 .integrity-copy ul { display: flex; flex-direction: column; gap: 16px; margin-top: 1.6em; }
 .integrity-copy li { display: flex; gap: 14px; }
 .integrity-copy li .dot { flex: none; width: 8px; height: 8px; border-radius: 50%; margin-top: 7px; background: var(--gradient-brand); }
