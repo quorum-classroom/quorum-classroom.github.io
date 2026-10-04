@@ -169,6 +169,23 @@ em.accent {
   max-width: 42rem;
 }
 
+.proof-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
+  color: var(--text);
+  padding: 0.5em 0.9em;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--bg-raised);
+  margin-bottom: 0.4em;
+}
+.proof-badge svg { width: 14px; height: 14px; color: var(--verified); flex: none; }
+
 .container {
   max-width: var(--maxw);
   margin: 0 auto;
