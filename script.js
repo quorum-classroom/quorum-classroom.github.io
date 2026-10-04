@@ -829,7 +829,7 @@
         contactForm.reset();
         if (contactStatus) { contactStatus.textContent = 'Message sent!'; contactStatus.className = 'contact-status is-success'; }
       } catch {
-        if (contactStatus) { contactStatus.textContent = "Something went wrong — email us directly at vivekk@iiitd.ac.in instead."; contactStatus.className = 'contact-status is-error'; }
+        if (contactStatus) { contactStatus.textContent = "Something went wrong — email us directly at quorumclassroom@gmail.com instead."; contactStatus.className = 'contact-status is-error'; }
       } finally {
         if (contactSubmit) { contactSubmit.disabled = false; contactSubmit.textContent = 'Send Message'; }
       }
